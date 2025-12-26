@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    padding:0px 5px;
+    text-align: center;
+    background-color: #191919;
+    color: whitesmoke;
+    justify-content: initial;
+}
+
+footer{
+    padding: 5px 10px;
+    background-color: #191919;
+    color:white;
+}
+
+/******************Story-Bar*****************/
+#story-bar{
+    padding: 10px;
+    background-color: #191919;
+    color:white;
+    overflow-x: auto;
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+
+
+.story-1,.story-2,.story-3,.story-4,.story-5,.story-6,.story-7,.story-8{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: green;
+    flex-shrink: 0;
+}
+
+
+
+
+
